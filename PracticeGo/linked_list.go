@@ -93,17 +93,3 @@ func (l *List) printLinkedList(node *linkedListNode){
         l.printLinkedList(node.next_ptr)
     }
 }
-
-//
-//func main(){
-//    l := List{root:nil, queue:nil}
-//    l.insertRecursive("mat", l.root)
-//    l.insertRecursive("thang", l.root)
-//    l.insertRecursive("thu", l.root)
-//    l.insertRecursive("linh", l.root)
-//    l.insertRecursive("abc", l.root)
-//    l.insertRecursive("nga", l.root)
-//    l.deleteNode("thang")
-//    l.deleteNode("linh")
-//    l.deleteNode("mat")
-//}

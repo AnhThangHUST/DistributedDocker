@@ -171,17 +171,3 @@ func (t *UBLtree) printQueue(){
         fmt.Printf("-%s-", t.queue[i].Value)
     }
 }
-//
-//func main(){
-//    t := UBLtree{root:nil, queue:nil}
-//    t.insertRecursive("mat", t.root)
-//    t.insertRecursive("thang", t.root)
-//    t.insertRecursive("thu", t.root)
-//    t.insertRecursive("linh", t.root)
-//    t.insertRecursive("abc", t.root)
-//    t.insertRecursive("nga", t.root)
-//    t.deleteNode("thang")
-//    t.deleteNode("linh")
-//    t.deleteNode("mat")
-//    fmt.Println()
-//}

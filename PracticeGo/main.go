@@ -1,12 +1,6 @@
 package main
 import "fmt"
 
-//type dataStructure interface{
-//    insertNode(value string)
-//    deleteNode(value string)
-//    printStructure()
-//}
-
 func insertNode(value string, d dataStructure){
     d.insertNode(value)
 }
