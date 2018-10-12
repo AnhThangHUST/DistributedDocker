@@ -159,6 +159,10 @@ func newCIDFile(path string) (*cidFile, error) {
 	return &cidFile{path: path, file: f}, nil
 }
 
+/************ActiveLearn*****************
+We should justify function createContainer
+becasue we want to parse Path
+*****************************************/
 func createContainer(ctx context.Context, dockerCli command.Cli, containerConfig *containerConfig, opts *createOptions) (*container.ContainerCreateCreatedBody, error) {
 	config := containerConfig.Config
 	hostConfig := containerConfig.HostConfig

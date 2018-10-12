@@ -24,7 +24,7 @@ import (
 	"github.com/spf13/pflag"
 )
 
-/* *******NOTE********
+/* *******ActiveLearn********
 The flags parsed from command line will choose option for you
 After get the option, dockerCli will create a response and send it to dockerDaemon
 ---> you should find out what function create the response
@@ -39,6 +39,9 @@ type runOptions struct {
 	sigProxy   bool
 	detachKeys string
 }
+/*********ActiveLearn********
+We also should justify function NewRunCommand and runContainer
+*****************************/
 
 // NewRunCommand create a new `docker run` command
 func NewRunCommand(dockerCli command.Cli) *cobra.Command {

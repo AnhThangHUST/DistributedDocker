@@ -17,8 +17,11 @@ type configWrapper struct {
 	NetworkingConfig *network.NetworkingConfig
 }
 
-// ContainerCreate creates a new container based in the given configuration.
-// It can be associated with a name, but it's not mandatory.
+/*****************ActiveLearn*****************
+ContainerCreate creates a new container based in the given configuration.
+It can be associated with a name, but it's not compulsory.
+*********************************************/
+
 func (cli *Client) ContainerCreate(ctx context.Context, config *container.Config, hostConfig *container.HostConfig, networkingConfig *network.NetworkingConfig, containerName string) (container.ContainerCreateCreatedBody, error) {
 	var response container.ContainerCreateCreatedBody
 
