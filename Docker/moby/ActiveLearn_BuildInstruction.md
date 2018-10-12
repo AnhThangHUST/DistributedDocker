@@ -5,10 +5,10 @@
  STEP2: ./compile.sh
  STEP3: ./stopdocker.sh
  STEP4: ./startdocker.sh
------
 
-##CASE 2:
-=========
+
+## CASE 2:
+
 If you have had docker:
     If the damemon dies:
         STEP1:  sudo rm -rf /var/lib/docker
