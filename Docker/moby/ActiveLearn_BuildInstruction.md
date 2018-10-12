@@ -1,5 +1,5 @@
 ## CASE 1:
-=========
+
  -If you don't have docker:
  -STEP1: sudo apt-get install docker-ce
  -STEP2: ./compile.sh
