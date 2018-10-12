@@ -1,7 +1,9 @@
 ## Case1
 If you don't have docker:
   Step 1: sudo apt-get install docker-ce
+  
   Step 2: ./compile.sh
+  
   Step 3: ./stopdocker.sh
 
 
