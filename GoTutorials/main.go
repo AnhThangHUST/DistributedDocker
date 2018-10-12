@@ -11,8 +11,7 @@ func deleteNode(value string, d dataStructure){
 
 func main(){
     a := &List{root:nil, queue:nil}
-    //a = &UBLtree{root:nil, queue:nil}
-    insertNode("mat", a)
+    insertNode("cuong", a)
     insertNode("thang", a)
     insertNode("thu",a )
     insertNode("linh", a)
@@ -25,11 +24,11 @@ func main(){
     fmt.Printf("       After delete node linh:\n===> ")
     deleteNode("linh",a )
     fmt.Printf("       After delete root:\n===> ")
-    deleteNode("mat",a)
+    deleteNode("cuong",a)
     fmt.Println()
 
     b := &UBLtree{root:nil, queue:nil}
-    insertNode("mat", b)
+    insertNode("cuong", b)
     insertNode("thang", b)
     insertNode("thu", b)
     insertNode("linh", b)
@@ -37,6 +36,6 @@ func main(){
     insertNode("nga", b)
     deleteNode("thang", b)
     deleteNode("linh", b)
-    deleteNode("mat",b)
+    deleteNode("cuong",b)
     fmt.Println()
 }
